@@ -1,0 +1,2 @@
+# Firebase Asynchronous Operation Handling Error
+This repository demonstrates a common error in Firebase applications: not handling asynchronous operations correctly.  The `bug.js` file showcases the incorrect approach where a `console.log` statement executes before a Firestore data fetch completes. The `bugSolution.js` provides the correct solution.
